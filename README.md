@@ -6,7 +6,23 @@
   />
 </p>
 
-# 🛡️ Threat Hunt Report – Internet-Exposed VM Brute Force Investigation (Scenario 1)
+---
+
+## 🎭 Scenario Context
+
+During routine maintenance, the security team was tasked with investigating any virtual machines in the **shared services cluster** (handling DNS, Domain Services, DHCP, etc.) that may have been **mistakenly exposed to the public internet**.
+
+The objective of this scenario was to:
+
+- Identify any misconfigured or unintentionally internet-facing VMs  
+- Determine whether those systems were receiving external authentication attempts  
+- Validate whether any brute-force activity resulted in successful unauthorized access  
+
+This hunt frames the investigation as a **preventive exposure assessment and brute-force validation exercise**, focused on early detection of initial access attempts before compromise.
+
+---
+
+# 🛡️ Threat Hunt Report – Internet-Exposed VM Brute Force Investigation
 
 ---
 
